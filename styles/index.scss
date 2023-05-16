@@ -1,0 +1,16 @@
+body{
+    margin: auto;
+    max-width: 864px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 62px;
+
+}
+
+@import './header';
+@import './logo';
+@import './details';

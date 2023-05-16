@@ -1,0 +1,133 @@
+body {
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 62px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 62px;
+  padding-bottom: 143px;
+}
+
+.navigation-items {
+  top: calc(50% - 11.5px);
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height, or 140% */
+  display: flex;
+  gap: 28px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #111111;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #111111;
+}
+
+a:hover {
+  opacity: 50%;
+}
+
+.logo {
+  font-family: "Aldrich";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  letter-spacing: -0.25px;
+  color: #242635;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 102px;
+  /* identical to box height, or 113% */
+  letter-spacing: -2px;
+  color: #242635;
+}
+
+p {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  /* or 150% */
+  text-align: center;
+  color: #242635;
+  max-width: 573px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 47px;
+}
+
+.image-container {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+@media screen and (min-width: 801px) {
+  .fa-solid {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 72px;
+    line-height: 83px;
+    /* identical to box height, or 115% */
+    letter-spacing: -1.6px;
+  }
+  header {
+    margin-top: 34px;
+  }
+}
+@media screen and (max-width: 800px) {
+  header {
+    margin-top: 11px;
+    max-width: 300px;
+    max-height: 560px;
+  }
+  .navigation-item {
+    display: none;
+  }
+  h1 {
+    font-size: 36px;
+    line-height: 40px;
+    /* identical to box height, or 110% */
+    text-align: center;
+    letter-spacing: -0.8px;
+  }
+  p {
+    max-width: 217px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=index.css.map */
